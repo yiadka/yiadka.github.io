@@ -20,15 +20,18 @@ $\theta : 推定誤差, p(\theta): 事前分布, data : データ, p(data | \the
 
 ## 最尤法
 尤度を最大にするような推定手法。以下のような例を考える。
+
 $$
 p(1|\theta) = \theta \\
 p(0|\theta) = 1 - \theta
 $$
 表、裏、表、裏、表で計算する例とする。
+
 $$
 p(10101 | \theta) = \theta \cdot (1 - \theta) \cdot \theta \cdot (1 - \theta) \cdot \theta \\
 = \theta^{3} \cdot (1 - \theta)^{2}
 $$
+
 100回だったら、$p(data|\theta)=\theta^{56}\cdot (1-\theta)^{44}$として計算できる。
 表の出る確率$\theta$の推定値は、上の式が最大になるような$\theta$となる。この場合、ベータ分布の最頻値$0.56$となる。
 
