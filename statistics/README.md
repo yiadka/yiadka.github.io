@@ -17,8 +17,10 @@ $$
 
 として表すことが出来る。
 ## ベータ分布/ベータ関数
-$\alpha, \beta$について、$B(\alpha, \beta)$とすると
+$\alpha, \beta$について、$B(\alpha, \beta)$ とすると
+
 $$
 B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}
 $$
+
 となる。
