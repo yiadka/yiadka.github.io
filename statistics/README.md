@@ -1,6 +1,6 @@
 # 統計学
 ## ガンマ分布/ガンマ関数
-任意の整数$n$について、階乗$n!$を定義すると、
+任意の整数 $n$ について、階乗 $n!$ を定義すると、
 
 $$
 n!= 1 \quad (n=0)
@@ -20,10 +20,14 @@ $$
 
 として表すことが出来る。
 ## ベータ分布/ベータ関数
-$\alpha, \beta$について、 $B(\alpha, \beta)$ とすると
+$\alpha, \beta$ について、 $B(\alpha, \beta)$ とすると
 
 $$
 B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}
 $$
 
 となる。
+
+参考文献
+
+https://www.headboost.jp/what-is-beta-distribution/
