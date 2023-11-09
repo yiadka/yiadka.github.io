@@ -31,3 +31,4 @@ $$
 参考文献
 
 https://www.headboost.jp/what-is-beta-distribution/
+https://qiita.com/sand/items/7443a5ba7be873e113d9
